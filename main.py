@@ -155,7 +155,8 @@ async def instruction(message: types.Message):
 1️⃣ Перейдите на сайт  
 2️⃣ Нажмите «Войти»  
 3️⃣ Введите логин и пароль  
-4️⃣ Подтвердите вход
+4️⃣ Добавляем наш промокод - Yere1
+5️⃣ Подтвердите вход
 """
     else:
         loading_text = "Բեռնում..."
@@ -164,7 +165,8 @@ async def instruction(message: types.Message):
 1️⃣ Մուտք գործեք կայք  
 2️⃣ Սեղմեք «Մուտք»  
 3️⃣ Մուտքագրեք տվյալները  
-4️⃣ Հաստատեք մուտքը
+4️⃣ Ավելացրեք մեր պրոմո կոդը - Yere1
+5️⃣ Հաստատեք մուտքը
 """
 
     loading_msg = await message.answer(loading_text)
@@ -222,6 +224,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
