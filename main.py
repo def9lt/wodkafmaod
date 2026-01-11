@@ -4,7 +4,7 @@ from aiogram.filters import CommandStart
 
 # ================= НАСТРОЙКИ =================
 BOT_TOKEN = "8261950692:AAGPdrjcNIL4M3mZvg1iBuQGI5t5pXQHyZw"
-SITE_URL = "https://one-vv02.life/casino/list?open=register&p=rtt2&sub1=1win&sub2=Ere1&sub3=Arm"
+SITE_URL = "https://1win.com/?open=register&p=yicm"
 PROMO_CODE = "Yere1"
 VIDEO_PATH = "login_instruction.mp4"
 
@@ -222,4 +222,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
