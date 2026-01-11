@@ -143,7 +143,7 @@ async def site(message: types.Message):
         )
 
 # ================= ВИДЕО ИНСТРУКЦИЯ =================
-@dp.message(lambda m: m.text in ["📘 Инструкция по входу на сайт", "📘 Ինչպես մուտք գործել կայք"])
+@dp.message(lambda m: m.text in ["📘 Инструкция по входу на сайт", "📘 Մուտքի ուղեցույց"])
 async def instruction(message: types.Message):
     lang = user_languages.get(message.from_user.id, "ru")
     video = types.FSInputFile(VIDEO_PATH)
@@ -222,5 +222,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
